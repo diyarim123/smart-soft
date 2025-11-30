@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-foreground font-semibold mb-1">Email Us</h4>
-                  <p className="text-muted-foreground">hello@smartsoft.com</p>
+                  <p className="text-muted-foreground">smartsoft398@gmail.com</p>
                 </div>
               </div>
 
@@ -62,19 +62,10 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-foreground font-semibold mb-1">Call Us</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+964 772 432 6150</p>
                 </div>
               </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <h4 className="text-foreground font-semibold mb-1">Visit Us</h4>
-                  <p className="text-muted-foreground">123 Creative Street, Tech City</p>
-                </div>
-              </div>
+              
             </div>
           </div>
 
