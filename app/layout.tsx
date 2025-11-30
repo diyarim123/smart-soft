@@ -8,9 +8,12 @@ const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Smart Soft | Creative Tech Team",
+  title: "Smart Soft",
   description:
     "Smart Soft is a creative team delivering web systems, websites, mobile apps, UI/UX designs, and hosting solutions.",
+  icons: {
+    icon: "/logo.png",
+  },
 }
 
 export default function RootLayout({

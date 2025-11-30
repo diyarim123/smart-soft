@@ -36,7 +36,6 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Get Started</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -59,7 +58,6 @@ export default function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-fit">Get Started</Button>
             </div>
           </div>
         )}

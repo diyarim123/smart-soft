@@ -42,21 +42,6 @@ export default function Hero() {
           designs that elevate your brand.
         </p>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8">
-            Start Your Project
-            <ArrowRight className="ml-2 w-4 h-4" />
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-border text-foreground hover:bg-secondary px-8 bg-transparent"
-          >
-            View Our Work
-          </Button>
-        </div>
-
         {/* Stats */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
           {[
